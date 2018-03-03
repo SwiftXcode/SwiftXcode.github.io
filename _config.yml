@@ -6,10 +6,10 @@
 name: SwiftXcode
 
 # Short bio or description (displayed in the header)
-description: TODO
+description: Use Swift Package Manager directly from within Xcode.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/SwiftXcode.png?size=92
+avatar: http://zeezide.com/img/SwiftXcodePkgIcon.svg
 timezone: Europe/Berlin
 
 #
