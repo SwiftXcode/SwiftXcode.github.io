@@ -7,22 +7,21 @@ tags: xcode swift package manager server side
 <p>
   <img src="https://img.shields.io/badge/swift-4-blue.svg" />
   <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" />
+  <img src="https://img.shields.io/homebrew/v/cake.svg" />
 </p>
 
-Use Swift packages directly from within Xcode,
+Use 
+[Swift Package Manager](https://swift.org/package-manager/),
+packages directly from within Xcode,
 w/o having to jump to the Terminal.
 With swift builds, in a non-annoying way.
-Build large dependencies once, not for every project.
+Build large dependencies once, not again and again for every project.
 Do not require an Internet connection just to create a new project.
+
 
 ## Goals
 
 ### 1. Use Swift Package Manager directly from within Xcode
-
-Goal (duration: a few seconds):
-1. Create a project from within Xcode. (Cmd-Shift-N, follow wizard)
-2. Build and run. Works.
-You need to add a package? Just edit `Package.swift` and build.
 
 State of the art (duration: some minutes or more):
 1. Open terminal.
@@ -33,13 +32,18 @@ State of the art (duration: some minutes or more):
 6. Build and Run.
 You need to add a package? Start again at step 4, sometimes 3.
 
+Goal (duration: a few seconds):
+1. Create a project from within Xcode. (Cmd-Shift-N, follow wizard)
+2. Build and run. Works.
+You need to add a package? Just edit `Package.swift` and build.
+
 ### 2. Reduce Compile Time
 
-Calling `swift build` as a tool is somewhat expensive.
+Calling `swift build` as a tool takes some second(s).
 
 Goal:
 Instead of doing calling `swift build` on every build,
-do a `swift build` only if the `Package.swift` changes.
+do a `swift build` only when the `Package.swift` file is changed.
 Produces a static library (pretty big, bundles up all the packages),
 which is directly linked against the Xcode target.
 
