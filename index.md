@@ -92,6 +92,15 @@ Afterwards you can create new Xcode projects using those templates,
 without having to wait for the SPM bootstrap (fetch and compilation
 of the dependencies).
 
+You can find the available images over here:
+[Swift Packages within Xcode](https://github.com/SwiftXcode),
+this includes:
+
+- Kitura
+- SwiftNIO
+- RxSwift
+- SwiftServerAPI (ha!)
+
 #### Image: Kitura
 
 (One time) compile time: ~5 minutes. Image size: ~100MB.
