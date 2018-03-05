@@ -96,10 +96,12 @@ You can find the available images over here:
 [Swift Packages within Xcode](https://github.com/SwiftXcode),
 this includes:
 
-- Kitura
-- SwiftNIO
-- RxSwift
-- SwiftServerAPI (ha!)
+- Kitura   (`brew install swift-xcode-kitura`)
+- SwiftNIO (`brew install swift-xcode-nio`)
+- SwiftServerAPI (`brew install swift-xcode-server-api`)
+
+After installing an image, always run `swift xcode link-templates` so that
+Xcode can find the templates.
 
 #### Image: Kitura
 
