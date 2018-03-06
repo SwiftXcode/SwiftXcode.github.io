@@ -140,6 +140,11 @@ Yet, you can still build reusable modules with it.
 So is it a replacement for Cocoa Pods or Carthage?
 In some cases it can be. In other cases it can't :-)
 
+### What it looks like ...
+
+Build a Mobile Cows application in 3 minutes:
+
+<img src="http://zeezide.com/img/swift-xcode-uikit-cows.gif" />
 
 ### Documentation
 
