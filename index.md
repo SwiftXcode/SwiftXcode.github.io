@@ -18,6 +18,8 @@ With swift builds, in a non-annoying way.
 Build large dependencies once, not again and again for every project.
 Do not require an Internet connection just to create a new project.
 
+<p style="text-align: right;"><i>... hopefully getting sherlocked soon!</i></p>
+
 Too much text? Want a GIF? [Here you go](#what-it-looks-like-).
 
 ## Goals
