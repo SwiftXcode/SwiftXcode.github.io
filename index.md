@@ -6,6 +6,10 @@ tags: xcode swift package manager server side
 
 <p>
   <img src="https://img.shields.io/badge/swift-4-blue.svg" />
+  <img src="https://img.shields.io/badge/swift-5-blue.svg" />
+  <img src="https://img.shields.io/badge/swiftnio-1-blueviolet.svg" />
+  <img src="https://img.shields.io/badge/swiftnio-2-blueviolet.svg" />
+  <img src="https://img.shields.io/badge/kitura-2-01BBE6.svg" />
   <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" />
   <img src="https://img.shields.io/homebrew/v/cake.svg" />
 </p>
@@ -99,9 +103,11 @@ You can find the available images over here:
 [Swift Packages within Xcode](https://github.com/SwiftXcode),
 this includes:
 
-- Kitura   (`brew install swift-xcode-kitura`)
-- SwiftNIO (`brew install swift-xcode-nio`)
-- SwiftServerAPI (`brew install swift-xcode-server-api`)
+- SwiftNIO 2 (`brew install swift-xcode-nio-2`)
+- Kitura (`brew install swift-xcode-kitura`)
+- SwiftObjects (`brew install swift-xcode-wo`)
+- SwiftNIO 1 (`brew install swift-xcode-nio-1`)
+- Old: SwiftServerAPI (`brew install swift-xcode-server-api`)
 
 After installing an image, always run `swift xcode link-templates` so that
 Xcode can find the templates.
@@ -115,6 +121,9 @@ Fresh project setup from create to run: 3 seconds.
 brew install swift-xcode-kitura
 swift xcode link-templates # <-- important!
 ```
+
+A blog post with all the details:
+[Instant Kitura with SwiftXcode](http://www.alwaysrightinstitute.com/swift-xcode-kitura/).
 
 ## Using it for iOS Projects
 
