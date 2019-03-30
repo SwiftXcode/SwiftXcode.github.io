@@ -115,10 +115,10 @@ You can find the available images over here:
 [Swift Packages within Xcode](https://github.com/SwiftXcode),
 this includes:
 
-- SwiftNIO 2 (`brew install swift-xcode-nio-2`)
+- SwiftNIO 2 (`brew install swift-xcode-nio2`)
 - Kitura (`brew install swift-xcode-kitura`)
 - SwiftObjects (`brew install swift-xcode-wo`)
-- SwiftNIO 1 (`brew install swift-xcode-nio-1`)
+- SwiftNIO 1 (`brew install swift-xcode-nio1`)
 - Old: SwiftServerAPI (`brew install swift-xcode-server-api`)
 
 After installing an image, always run `swift xcode link-templates` so that
