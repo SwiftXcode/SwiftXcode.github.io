@@ -58,6 +58,12 @@ do a `swift build` only when the `Package.swift` file is changed.
 Produces a static library (pretty big, bundles up all the packages),
 which is directly linked against the Xcode target.
 
+Build time on first build:
+![Buildtime first build](images/build-time-1st.png)
+
+Changing main.swift:
+![Buildtime second build](images/build-time-2nd.png)
+
 ### 3. Reduce *Initial* Compile Time
 
 State of the art:
