@@ -58,10 +58,8 @@ do a `swift build` only when the `Package.swift` file is changed.
 Produces a static library (pretty big, bundles up all the packages),
 which is directly linked against the Xcode target.
 
-Build time on first build:
-![Buildtime first build](images/build-time-1st.png)
+Changing a source file:
 
-Changing main.swift:
 ![Buildtime second build](images/build-time-2nd.png)
 
 ### 3. Reduce *Initial* Compile Time
@@ -83,6 +81,10 @@ Goals, alongside goal 1:
 1. Create a project from within Xcode. (Cmd-Shift-N, follow wizard)
 2. Edit your main.swift or whatever
 3. Build and run. Only build your own project sources.
+
+Build time on first build, straight after project creation:
+
+![Buildtime first build](images/build-time-1st.png)
 
 #### 3.1. Bonus: Do not require Internet to create new projects
 
