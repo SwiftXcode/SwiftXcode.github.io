@@ -44,9 +44,9 @@ Goal (duration: a few seconds):
 2. Build and run. Works.
 You need to add a package? Just edit `Package.swift` and build.
 
-[Template Selection](images/nio-2-setup/01-type-select.png)
-[Project Wizard](images/nio-2-setup/02-wizard.png)
-[Finished Project](images/nio-2-setup/03-project.png)
+![Template Selection](images/nio-2-setup/01-type-select.png)
+![Project Wizard](images/nio-2-setup/02-wizard.png)
+![Finished Project](images/nio-2-setup/03-project.png)
 
 ### 2. Reduce Compile Time
 
