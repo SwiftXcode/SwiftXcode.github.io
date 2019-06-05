@@ -26,7 +26,7 @@ With swift builds, in a non-annoying way.
 Build large dependencies once, not again and again for every project.
 Do not require an Internet connection just to create a new project.
 
-<p style="text-align: right;"><i>... finally got sherlocked at [WWDC 2019](https://wwdcbysundell.com/2019/xcode-swiftpm-first-look/)!</i></p>
+<p style="text-align: right;"><i>... finally got sherlocked at WWDC 2019)!</i></p>
 
 Too much text? Want a GIF? [Here you go](#what-it-looks-like-).
 
